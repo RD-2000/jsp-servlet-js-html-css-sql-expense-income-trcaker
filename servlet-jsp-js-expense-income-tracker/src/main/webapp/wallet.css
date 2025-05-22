@@ -1,0 +1,64 @@
+/* wallet.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f1f3f6;
+  margin: 0;
+  padding: 0;
+}
+.wallet-container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.wallet-container header h1 {
+  color: #2c3e50;
+}
+.wallet-container header p {
+  font-size: 1.5rem;
+  color: #27ae60;
+  margin-top: 0.5rem;
+}
+.wallet-actions button {
+  margin: 1rem;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #fff;
+}
+.wallet-actions button:first-child {
+  background: #2ecc71;
+}
+.wallet-actions button:last-child {
+  background: #e74c3c;
+}
+.wallet-summary {
+  text-align: left;
+  margin-top: 2rem;
+}
+.wallet-summary h2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.5rem;
+}
+.wallet-summary ul {
+  list-style: none;
+  padding: 0;
+}
+.wallet-summary li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+footer a {
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+}
